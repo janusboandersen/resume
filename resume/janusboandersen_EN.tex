@@ -1,20 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy CV/Resume
-% XeLaTeX Template
-% Version 1.0 (5/5/2014)
-%
-% This template has been downloaded from:
+% Updated by Janus Bo Andersen 11 Jan 2021
+% 
+% Based on:
+% Deedy CV/Resume, Version 1.0 (5/5/2014)
 % http://www.LaTeXTemplates.com
-%
-% Original author:
-% Debarghya Das (http://www.debarghyadas.com)
-% With extensive modifications by:
-% Vel (vel@latextemplates.com)
+% Original author: Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by: Vel (vel@latextemplates.com)
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
-% Important notes:
 % This template needs to be compiled with XeLaTeX.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -36,11 +31,12 @@
 \namesection{Janus Bo Andersen}{}{ % Your name
 %\urlstyle{same}\url{http://debarghyadas.com} 
 % Your website, LinkedIn profile or other web address
+Danish citizen, married to Singaporean. LTVP-Plus holder, eligible to work in Singapore on LOC. Pursuing PR.\\ 
 \faPhoneSquare* +65 97243507 (Singapore) | 
 \href{mailto:janus@janusboandersen.dk}{\faEnvelope} | 
 \href{https://github.com/janusboandersen}{\faGithub} | 
-\href{https://www.linkedin.com/in/janusboandersen/}{\faLinkedin} | 
-\href{https://jobbank.au.dk/profiles/janusboandersen}{AU Job Bank}
+\href{https://www.linkedin.com/in/janusboandersen/}{\faLinkedin} 
+%| \href{https://jobbank.au.dk/profiles/janusboandersen}{AU Job Bank}
 
 } 
 
@@ -57,15 +53,17 @@
 
 \section{Education} 
 
-\descript{Embedded systems engineering (electronics)}
-\location{5th sem. (2018 – 2021) | Aarhus University}
+\descript{Software and Embedded (electronics engg.)}
+\location{6th sem. (2018 – 2021) | Aarhus University}
 Top of the year with current GPA 11.9 (12-point scale).
 \vspace{\topsep}
 \begin{tightitemize}
-\item Software engineering and development of embedded, distributed and realtime systems on MCU, FPGA, SoC and Cloud platforms. \\
-\item Experienced in RTOS, Linux systems prog., network and IOT tech. and DevOps tools. \\
-\item Experienced in implementing DSP, algorithms, machine learning, etc. \\
-\item Larger projects in web dev., robotics, dynamic systems and control, RFID, analog electronics, etc. \\
+\item Cloud and distributed systems. \\
+\item Embedded, realtime systems on MCU, SoC, FPGA. \\
+\item Linux systems prog., RTOS, DevOps tools. \\
+\item DSP, computer vision, machine learning algorithms. \\
+\item Sensors, edge processing, IOT.
+\item Large projects in web dev., UI/UX, robotics, dynamic systems and control, analog electronics. \\
 \item Project management and agile methods.
 \item Active in the Education Committee.
 \end{tightitemize}
@@ -79,7 +77,7 @@ Top of the year with GPA 11.5 (12-point scale).
 \begin{tightitemize}
 \item Master's thesis: Commercialization of Microfinance. \\
 \item Focus on corporate finance, financial engineering og quantitative methods. \\
-\item Doing Business in China case competition with BCG and Novozymes. \\
+\item Business in China case comp. with BCG, Novozymes. \\
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -117,37 +115,38 @@ Highest GPA of the year of 10.6 (old scale).
 %\subsection{Programmering}
 
 \location{Software: Languages, build and test systems}
-C, C++11/14/17, Python 3, VBA, Ruby 2.x, shell 
-\textbullet{} CMake 3.x 
-\textbullet{} GoogleTest, Catch2 (C++), unittest (Py) \\
+C, C++11/14/17, Python 3, Bash/shell, VBA
+\bluebullet{} CMake 3.x
+\bluebullet \inlinefocus{C++:} GoogleTest, Catch2, 
+\inlinefocus{Py:} unittest, PyTest \\
 \sectionspace % Some whitespace after the section
 
-\location{FPGA, SoC: Languages, build and test systems}
-VHDL 
-\textbullet{} Xilinx Vivado, SDK and Vitis
-\textbullet{} ILA \\
+\location{SoC, FPGA: Languages, build and test systems}
+VHDL, HLS/SDS
+\bluebullet{} Xilinx Vivado, SDK, SDSoC, Vitis
 \sectionspace % Some whitespace after the section
 
-\location{Linux, Cloud, DevOps, Data bases, Web}
-Oracle Linux 7, CentOS 7, Ubuntu 18.04, 20.04
-\textbullet{} AWS
-\textbullet{} Docker, compose
-\textbullet{} Git, Github
-\textbullet{} PostgreSQL, MongoDB
-\textbullet{} Django and Flask (Py), Nginx, HTML5/CSS/Bootstrap 4
+\location{Cloud, Linux, DevOps, Databases, Web, Protocol stacks}
+AWS
+\bluebullet{} Oracle Linux 7, CentOS 7, Ubuntu 18.04, 20.04 \\
+\bluebullet{} Git, Github, Docker, compose
+\bluebullet{} PostgreSQL, MongoDB
+\bluebullet{} Django, Flask (Py), Nginx, HTML5/CSS/Bootstrap 4 \\
+\bluebullet{} MQTT, TCP/IP, CAN, I$^2$C, SPI, UART, WM-Bus
 \sectionspace % Some whitespace after the section
 
-\location{Data, analysis, visualization, DSP, etc.}
-Matlab Toolboxes: Symbolic Math, Filter Design, DSP, Image Processing, Control System
-\textbullet{} Python: NumPy, SciPy, Pandas, Scikit-learn, Matplotlib, Seaborn
-\textbullet{} SAS: BASE, STAT and IML
-\textbullet{} SAP: FI/CO and BW
+\location{Analysis, visualization, DSP, Computer Vision, etc.}
+\inlinefocus{Matlab Toolboxes:} Symbolic Math, Filter Design, DSP, Image Processing, Computer Vision, Control System
+\bluebullet \inlinefocus{Python libraries:} NumPy, SciPy, Pandas, Scikit-learn, Keras, Matplotlib, Seaborn
+\bluebullet \inlinefocus{C++/Py:} OpenCV
+\bluebullet \inlinefocus{SAS:} BASE, STAT, IML
+\bluebullet \inlinefocus{SAP:} FI/CO, BW
 \sectionspace % Some whitespace after the section
 
 \location{Embedded hardware platforms}
 Freescale (Arm Cortex-M0+), Beagle (Cortex-A8)
-\textbullet{} Xilinx Zynq-7000 SoC (Cortex-A9 and Artix-7)
-\textbullet{} TI C5535 \\
+\bluebullet{} Xilinx Zynq-7000 SoC (Cortex-A9 and Artix-7)
+\bluebullet{} TI C5535 \\
 \sectionspace % Some whitespace after the section
 
 
@@ -158,10 +157,10 @@ Freescale (Arm Cortex-M0+), Beagle (Cortex-A8)
 
 %\subsection{Sprog}
 \location{Languages}
-\inlinefocus{Danish} native,
-\inlinefocus{English} fluent,
-\inlinefocus{German} proficient (B2/C1),
-\inlinefocus{Mandarin} basic.
+\inlinefocus{Danish} native
+\bluebullet \inlinefocus{English} fluent
+\bluebullet \inlinefocus{German} proficient (B2/C1)
+\bluebullet \inlinefocus{Mandarin} basic.
 
 \sectionspace % Some whitespace after the section
 
@@ -218,7 +217,7 @@ Freescale (Arm Cortex-M0+), Beagle (Cortex-A8)
 \item Driving capital structure mgmt. through recommendations to executive management and board of directors, and subsequent implementation.
 \item Currency hedging; strategy and execution in re. to company exposure and mandate from board.
 \item Responsible for project to implement a quantitative currency hedging and risk management model in cooperation with McKinsey and PwC. 
-\item Communication of analyses of political and market developments.
+\item Analyses of political and market developments.
 \item Daily leadership of department graduate.
 \item Liaising with core banks for operations and tenders.
 \end{tightitemize}
@@ -247,7 +246,7 @@ Freescale (Arm Cortex-M0+), Beagle (Cortex-A8)
 \descript{| Assist. Quant. Analyst}
 \location{2007-2009 | Quantitative Research, Silkeborg}
 \begin{tightitemize}
-\item Implementation and testing of credit risk models on bank's loan portfolio.
+\item Development, implementation and testing of credit risk models on bank's loan portfolio.
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -259,7 +258,7 @@ Freescale (Arm Cortex-M0+), Beagle (Cortex-A8)
 \sectionspace % Some whitespace after the section
 
 \runsubsection{TDC A/S}
-\descript{| Assist. Analyst}
+\descript{| Assist. Analyst (telecoms.) }
 \location{2004-2006 | TDC Business, Aarhus}
 
 

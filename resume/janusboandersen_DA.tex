@@ -1,25 +1,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy CV/Resume
-% XeLaTeX Template
-% Version 1.0 (5/5/2014)
-%
-% This template has been downloaded from:
+% Updated by Janus Bo Andersen 11 Jan 2021
+% 
+% Based on:
+% Deedy CV/Resume, Version 1.0 (5/5/2014)
 % http://www.LaTeXTemplates.com
-%
-% Original author:
-% Debarghya Das (http://www.debarghyadas.com)
-% With extensive modifications by:
-% Vel (vel@latextemplates.com)
+% Original author: Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by: Vel (vel@latextemplates.com)
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
-% Important notes:
 % This template needs to be compiled with XeLaTeX.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[a4paper]{janus-resume} % Use US Letter paper, change to a4paper for A4 
+\documentclass[a4paper]{janus-resume}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[danish]{babel}
@@ -57,15 +52,17 @@
 
 \section{Uddannelse} 
 
-\descript{Embedded systems engineering (elektronik)}
-\location{5. sem. (2018 – 2021) | Aarhus Universitet}
+\descript{Software og Embedded (elektroniking.)}
+\location{6. sem. (2018 – 2021) | Aarhus Universitet}
 I toppen af årgangen med foreløbigt gns. på 11,9.
 \vspace{\topsep}
 \begin{tightitemize}
-\item Software engineering og udvikling af embeddede, distribuerede og realtidssys. på MCU, FPGA, SoC og Cloud-platforme. \\
-\item Erfaring med RTOS, Linux sys.prog., netværks- og IOT-teknologi samt DevOps-værktøjer. \\
-\item Erfaring med implementering af DSP, algoritmer, machine learning, m.v. \\
-\item Større projekter i webteknologi, robotter, dynamiske sys. og regulering, RFID, analog elektronik, m.m. \\
+\item Cloud og distribuerede systemer.
+\item Embeddede, realtidssystemer på MCU, SoC, FPGA. \\
+\item Linux systemprog., RTOS, DevOps-værktøjer. \\
+\item DSP, Computer Vision, machine learning algoritmer. \\
+\item Sensorer, edge-processering, IOT. \\
+\item Store projekter i webteknologi, UI/UX, robotter, dynamiske sys. og regulering, analog elektronik. \\
 \item Projektledelsesmodeller og agile metoder.
 \item Aktiv i uddannelsesudvalget.
 \end{tightitemize}
@@ -79,7 +76,7 @@ I toppen af årgangen med 11,5 i gns.
 \begin{tightitemize}
 \item Speciale: Kommercialisering af mikrofinans. \\
 \item Fokus på virksomhedsfinansiering, financial engineering og kvantitative metoder. \\
-\item Doing Business in China case competition for BCG og Novozymes. \\
+\item Business in China case comp. med BCG, Novozymes. \\
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -117,37 +114,38 @@ I toppen af årgangen med 11,5 i gns.
 %\subsection{Programmering}
 
 \location{Software: Sprog, build, og test}
-C, C++11/14/17, Python 3, VBA, Ruby 2.x, shell 
-\textbullet{} CMake 3.x 
-\textbullet{} GoogleTest, Catch2 (C++), unittest (Py) \\
+C, C++11/14/17, Python 3, Bash/sh, VBA
+\bluebullet{} CMake 3.x 
+\bluebullet \inlinefocus{C++:} GoogleTest, Catch2,
+\inlinefocus{Py:} unittest, PyTest \\
 \sectionspace % Some whitespace after the section
 
-\location{FPGA, SoC: Sprog, build, og test}
-VHDL 
-\textbullet{} Xilinx Vivado, SDK og Vitis
-\textbullet{} ILA \\
+\location{SoC, FPGA: Sprog, build, og test}
+VHDL, HLS/SDS 
+\bluebullet{} Xilinx Vivado, SDK, SDSoC, Vitis
 \sectionspace % Some whitespace after the section
 
-\location{Linux, Cloud, DevOps, Databaser, Web}
-Oracle Linux 7, CentOS 7, Ubuntu 18.04, 20.04
-\textbullet{} AWS
-\textbullet{} Docker, compose
-\textbullet{} Git, Github
-\textbullet{} PostgreSQL, MongoDB
-\textbullet{} Django og Flask (Py), Nginx, HTML5/CSS/Bootstrap 4
+\location{Cloud, Linux, DevOps, Databaser, Web, Protokol-stakke}
+AWS
+\bluebullet{} Oracle Linux 7, CentOS 7, Ubuntu 18.04, 20.04 \\
+\bluebullet{} Git, Github, Docker, compose
+\bluebullet{} PostgreSQL, MongoDB
+\bluebullet{} Django og Flask (Py), Nginx, HTML5/CSS/Bootstrap 4
+\bluebullet{} MQTT, TCP/IP, CAN, I$^2$C, SPI, UART, WM-Bus
 \sectionspace % Some whitespace after the section
 
 \location{Data, analyse, visualisering, DSP, m.m.}
-Matlab Toolboxes: Symbolic Math, Filter Design, DSP, Image Processing, Control System
-\textbullet{} Python: NumPy, SciPy, Pandas, Scikit-learn, Matplotlib, Seaborn
-\textbullet{} SAS: BASE, STAT og IML
-\textbullet{} SAP: FI/CO og BW 
+\inlinefocus{Matlab Toolboxes:} Symbolic Math, Filter Design, DSP, Image Process., Computer Vision, Control System
+\bluebullet \inlinefocus{Python:} NumPy, SciPy, Pandas, Scikit-learn, Keras, Matplotlib, Seaborn
+\bluebullet \inlinefocus{C++/Py:} OpenCV
+\bluebullet \inlinefocus{SAS}: BASE, STAT, IML
+\bluebullet \inlinefocus{SAP}: FI/CO, BW 
 \sectionspace % Some whitespace after the section
 
 \location{Embedded hardware-platforme}
 Freescale (Arm Cortex-M0+), Beagle (Cortex-A8)
-\textbullet{} Xilinx Zynq-7000 SoC (Cortex-A9 og Artix-7)
-\textbullet{} TI C5535 \\
+\bluebullet{} Xilinx Zynq-7000 SoC (Cortex-A9 og Artix-7)
+\bluebullet{} TI C5535 \\
 \sectionspace % Some whitespace after the section
 
 
@@ -158,10 +156,10 @@ Freescale (Arm Cortex-M0+), Beagle (Cortex-A8)
 
 %\subsection{Sprog}
 \location{Sprog}
-\inlinefocus{Dansk} modersmål,
-\inlinefocus{engelsk} flydende,
-\inlinefocus{tysk} avanceret niveau (B2/C1),
-\inlinefocus{mandarin} basisniveau.
+\inlinefocus{Dansk} modersmål
+\bluebullet \inlinefocus{engelsk} flydende
+\bluebullet \inlinefocus{tysk} avanceret niveau (B2/C1)
+\bluebullet \inlinefocus{mandarin} basisniveau.
 
 \sectionspace % Some whitespace after the section
 
@@ -259,7 +257,7 @@ implementering.
 \sectionspace % Some whitespace after the section
 
 \runsubsection{TDC A/S}
-\descript{| Assist. analytiker}
+\descript{| Assist. analytiker (telekom.)}
 \location{2004-2006 | TDC Erhverv, Aarhus}
 
 

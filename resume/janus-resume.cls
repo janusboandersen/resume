@@ -111,6 +111,7 @@ Last Updated on \today % Last Updated text
 \newcommand{\inlinefocus}[1]{
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1} \normalfont}
 
+\newcommand*{\bluebullet}{{\color{nnlightblue}{\textbullet}}}
 
 %----------------------------------------------------------------------------------------
 %	SECTION TITLE STYLING AND SPACING
