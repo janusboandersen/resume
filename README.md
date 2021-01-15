@@ -2,7 +2,7 @@
 
 - Two-pager in [English](https://github.com/janusboandersen/resume/blob/master/janusboandersen_2pagercv.pdf).
 - One-pager in [English](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_EN.pdf).
-- One-pager in Danish [Danish](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_DA.pdf). 
+- One-pager in [Danish](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_DA.pdf). 
 
 Download the files to activate links.
 
