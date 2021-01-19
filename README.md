@@ -1,8 +1,8 @@
 # Resumé :rocket:
 
-- Two-pager in [English](https://github.com/janusboandersen/resume/blob/master/janusboandersen_2pagercv.pdf).
-- One-pager in [English](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_EN.pdf).
-- One-pager in [Danish](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_DA.pdf). 
+- Two-pager CV in [English](https://github.com/janusboandersen/resume/blob/master/janusboandersen_2pagercv.pdf).
+- One-pager resumé in [English](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_EN.pdf).
+<!-- - One-pager in [Danish](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_DA.pdf). -->
 
 Download the files to activate links.
 
