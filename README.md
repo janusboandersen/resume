@@ -1,6 +1,6 @@
 # CV and resumé :rocket:
 
-- Two-pager CV in [English](https://github.com/janusboandersen/resume/blob/master/janusboandersen_2pagercv.pdf).
+- Two-pager CV in [English](https://github.com/janusboandersen/resume/blob/master/janusboandersen_cv.pdf).
 <!-- - One-pager resumé in [English](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_EN.pdf). -->
 <!-- - One-pager in [Danish](https://github.com/janusboandersen/resume/blob/master/resume/janusboandersen_DA.pdf). -->
 
