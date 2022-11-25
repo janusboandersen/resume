@@ -7,8 +7,10 @@
 Download the files to activate links.
 
 Quick-take
-- I bring strong engineering skills within software and embedded systems, with a track record from finance and leadership experience from an industry-leading pharma company.
-- After years in finance, I decided to pursue my passion for tech and engineering, in order to build things and make an impact that way.
-- I am driven to learn, and hope to work with talented and ambitious people and to contribute to innovative solutions to hard problems.
+- Love working on hard problems together with other people, learning and building things.
+- Bring strong engineering skills in software, electronics and embedded systems.
+- Have track record and leadership experience from finance in an industry-leading pharma company.
+- Decided to pursue my passion for tech and engineering and make a mid-career transition into engineering, to make an impact that way.
+
 
 If you find my professional profile interesting, don't hesitate to get in touch! :seedling:
